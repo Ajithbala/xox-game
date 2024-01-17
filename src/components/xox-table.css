@@ -1,0 +1,16 @@
+table,td {
+  border:1px solid;
+    padding: 10px;
+
+}
+
+table{
+    position: absolute;
+    left: 20%;
+    right: 15%;
+}
+
+td{
+    height: 160px;
+    width: 250px;
+}
