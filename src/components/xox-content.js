@@ -4,7 +4,7 @@ export default function XoxContent(props){
 
     const generateCells = (rowIndex)=>{
         const cells = columnCount.map((data,index)=>{
-            let url = "../"+props.position[rowIndex+""+index]+".jpg";
+            let url = "./"+props.position[rowIndex+""+index]+".jpg";
                 return( <>
                 <td id={rowIndex+''+index} onClick={(e)=>{props.clickFn(e,rowIndex,index)}}>
                     <img src={url} width={150}></img></td>
